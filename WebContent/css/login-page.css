@@ -1,0 +1,35 @@
+body.login-page { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-login-page {
+   margin: 45px auto 0;
+}
+
+.cadastro-call {
+   display: block;
+   margin-top: 26px;
+   
+   color: currentColor;
+   font-size: 12px;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 500;
+   opacity: .6;
+}
+
+.cadastro-call u {
+   font-weight: normal;
+}
+
+.cadastro-call::after {
+   content: "OU";
+   display: block;
+   opacity: 0.6;
+   margin: 20px auto 25px;
+   font-size: 14px;
+   font-weight: 500;
+   text-transform: uppercase;
+}
